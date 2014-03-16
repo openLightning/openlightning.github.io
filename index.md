@@ -2,16 +2,11 @@
 title: Home
 layout: default
 ---
-<h2> Projects </h2>
+<h2> Home </h2>
 <ul>
-  <li style="background: #EFD279;">Test</li>
-  <li style="background: #95CBE9">Test</li>
-  <li class="dark" style="background: #024769; color: #fff;">Test</li>
-  <li class="dark" style="background: #2C5700; color: #fff;">Test</li>
-  <li style="background: #DE9D7F;">Test</li>
-  <li style="background: #EFD279;">Test</li>
-  <li style="background: #95CBE9">Test</li>
-  <li class="dark" style="background: #024769; color: #fff;">Test</li>
+  <li style="background: #DE9D7F;"><a href="/about.html">About</a></li>
+  <li style="background: #EFD279;"><a href="/projects.html">Projects</a></li>
+  <li style="background: #95CBE9"><a href="/blog.html">Blog</a></li>
 </ul>
 {% for post in site.posts %}
 {% if forloop.first %}
