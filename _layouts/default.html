@@ -1,18 +1,26 @@
-
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Ben James</title>
+        <title>{{ site.title }}</title>
         <link rel="stylesheet" href="/assets/style.css">
+        <!-- Meta -->
+        <meta name="description" content="{{page.title}}-{{ page.description }}">
+        <meta name="author" content="Isaac Reid-Guest, openLightning">
+        <meta name="keywords" content="open,Lightning,openLightning,open-source,open,source,code,development,{{ page.tags} ">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     </head>
     <body>
         <div id="header">
-            <h1>
-                <strong>{{ site.title }}</strong> {{ site.description }}
-            </h1>
+          <h1>
+            <strong>{{ site.title }}</strong> {{ site.description }}
+          </h1>
         </div>
         <div id="content">
-					{{ content }}
-				</div>
+          <h1>{{ page.title }}</h1>
+          <p>
+            {{ content }}
+          </p>
+       	</div>
     </body>
 </html>
