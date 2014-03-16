@@ -1,5 +1,20 @@
 title: openLightning
 description: An open-source software development organisation
+#Data
+gh-id: openlightning
+#Projects
+projects:
+- id: node-userStore
+- id: perl-app-boilerplate
+#Navigation
+navigation:
+- text: Projects
+  url: projects.html
+- text: About
+  url: about.html
+- text: Blog
+  url: blog.html
+#Gems
 gems:
 - jekyll-mentions
 - jemoji
