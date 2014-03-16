@@ -1,7 +1,8 @@
 ---
 title: Home
+layout: default
 ---
-<p>&#8618; It operates over the Internet, one would suppose. It does...</p>
+<h2> Projects </h2>
 <ul>
   <li style="background: #EFD279;">Test</li>
   <li style="background: #95CBE9">Test</li>
@@ -12,3 +13,9 @@ title: Home
   <li style="background: #95CBE9">Test</li>
   <li class="dark" style="background: #024769; color: #fff;">Test</li>
 </ul>
+{% for post in site.posts %}
+{% if forloop.first %}
+<h2> Blog </h2>
+{% endif %}
+<p>&#8618; {{ post.title }} - {{ post.date }}</p>
+{% endfor %}
