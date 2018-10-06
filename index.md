@@ -3,6 +3,9 @@ title: Home
 layout: default
 ---
 <h2> Home </h2>
+
+*This repo and organisation is now retired*
+
 <ul>
   <li style="background: #DE9D7F;"><a href="/about.html">About</a></li>
   <li style="background: #EFD279;"><a href="/projects.html">Projects</a></li>
